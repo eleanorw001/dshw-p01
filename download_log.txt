@@ -1,0 +1,40 @@
+
+======================================================================
+[2026-05-23 22:05:25] 开始下载任务
+======================================================================
+[2026-05-23 22:05:25] SUCCESS  stock_603685(晨丰科技)        shape=(1543, 9)
+[2026-05-23 22:05:26] SUCCESS  stock_603319(美湖股份)        shape=(1545, 9)
+[2026-05-23 22:05:26] SUCCESS  stock_600519(贵州茅台)        shape=(1545, 9)
+[2026-05-23 22:05:26] SUCCESS  stock_601288(农业银行)        shape=(1545, 9)
+[2026-05-23 22:05:26] SUCCESS  stock_601166(兴业银行)        shape=(1545, 9)
+[2026-05-23 22:05:27] SUCCESS  stock_600048(保利发展)        shape=(1545, 9)
+[2026-05-23 22:05:27] SUCCESS  stock_000568(泸州老窖)        shape=(1545, 9)
+[2026-05-23 22:05:27] SUCCESS  stock_002179(中航光电)        shape=(1545, 9)
+[2026-05-23 22:05:27] FAILED   stock_300510(金冠股份)        Error: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=2&secid=0.300510&beg=20200101&end=20260523 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[2026-05-23 22:05:27] FAILED   stock_000988(华工科技)        Error: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=2&secid=0.000988&beg=20200101&end=20260523 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[2026-05-23 22:05:33] FAILED   index_000300(沪深300)       Error: HTTPSConnectionPool(host='80.push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f3&fs=b%3AMK0010%2Cm%3A1%2Bt%3A1%2Cm%3A0+t%3A5%2Cm%3A1%2Bs%3A3%2Cm%3A0%2Bt%3A5%2Cm%3A2&fields=f3%2Cf12%2Cf13 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[2026-05-23 22:05:38] FAILED   index_000905(中证500)       Error: HTTPSConnectionPool(host='80.push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f3&fs=b%3AMK0010%2Cm%3A1%2Bt%3A1%2Cm%3A0+t%3A5%2Cm%3A1%2Bs%3A3%2Cm%3A0%2Bt%3A5%2Cm%3A2&fields=f3%2Cf12%2Cf13 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[2026-05-23 22:05:41] SUCCESS  macro_CPI_YoY             shape=(477, 3)
+[2026-05-23 22:05:41] FAILED   macro_USD_CNY             Error: currency_boc_safe() got an unexpected keyword argument 'currency'
+[2026-05-23 22:05:41] FAILED   macro_USD_CNY(backup)     Error: module 'akshare' has no attribute 'currency_hist'
+[2026-05-23 22:05:45] SUCCESS  finance_603685(晨丰科技)      shape=(24, 5), indicators=['ROE', '净利润率', '资产负债率', '营业收入增速']
+[2026-05-23 22:05:47] SUCCESS  finance_603319(美湖股份)      shape=(24, 5), indicators=['ROE', '净利润率', '资产负债率', '营业收入增速']
+[2026-05-23 22:05:49] SUCCESS  finance_600519(贵州茅台)      shape=(24, 5), indicators=['ROE', '净利润率', '资产负债率', '营业收入增速']
+[2026-05-23 22:05:50] SUCCESS  finance_601288(农业银行)      shape=(24, 5), indicators=['ROE', '净利润率', '资产负债率', '营业收入增速']
+[2026-05-23 22:05:52] SUCCESS  finance_601166(兴业银行)      shape=(24, 5), indicators=['ROE', '净利润率', '资产负债率', '营业收入增速']
+[2026-05-23 22:05:54] SUCCESS  finance_600048(保利发展)      shape=(24, 5), indicators=['ROE', '净利润率', '资产负债率', '营业收入增速']
+[2026-05-23 22:05:55] SUCCESS  finance_000568(泸州老窖)      shape=(24, 5), indicators=['ROE', '净利润率', '资产负债率', '营业收入增速']
+[2026-05-23 22:05:57] SUCCESS  finance_002179(中航光电)      shape=(24, 5), indicators=['ROE', '净利润率', '资产负债率', '营业收入增速']
+[2026-05-23 22:05:59] SUCCESS  finance_300510(金冠股份)      shape=(24, 5), indicators=['ROE', '净利润率', '资产负债率', '营业收入增速']
+[2026-05-23 22:06:02] SUCCESS  finance_000988(华工科技)      shape=(24, 5), indicators=['ROE', '净利润率', '资产负债率', '营业收入增速']
+[2026-05-23 22:06:02] SUCCESS  finance_all_long          shape=(240, 5)
+
+======================================================================
+[2026-05-23 22:10:10] 开始修复下载任务
+======================================================================
+[2026-05-23 22:10:10] SUCCESS  stock_300510(金冠股份)(tx)    shape=(1545, 9)
+[2026-05-23 22:10:11] SUCCESS  stock_000988(华工科技)(tx)    shape=(1545, 9)
+[2026-05-23 22:10:11] SUCCESS  index_000300(沪深300)(csindex) shape=(1546, 9)
+[2026-05-23 22:10:12] SUCCESS  index_000905(中证500)(csindex) shape=(1546, 9)
+[2026-05-23 22:10:19] SUCCESS  macro_USD_CNY(boc_safe)   shape=(77, 3), monthly avg USD/CNY
+[2026-05-23 22:10:19] SUCCESS  macro_USD_CNY_daily       shape=(1546, 4)
