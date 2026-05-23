@@ -85,6 +85,21 @@
 
 ---
 
+## 数据文件说明
+
+| 目录 | 是否上传 GitHub | 说明 |
+|------|----------------|------|
+| `data/stock/` | 否（.gitignore 排除） | 个股行情原始数据，可通过运行 `01_download.ipynb` 重新下载 |
+| `data/index/` | 否（.gitignore 排除） | 指数数据，同上 |
+| `data/macro/` | 否（.gitignore 排除） | 宏观数据，同上 |
+| `data/finance/` | 否（.gitignore 排除） | 财务数据，同上 |
+| `data/clean/` | **是** | 清洗后的个股数据（CSV + Parquet），用于后续分析 |
+| `data/combined/` | **是** | 合并后的综合数据集（个股 + 指数 + 宏观） |
+
+> 原始数据体积较大（~10MB），已通过 `.gitignore` 排除。克隆仓库后请先运行 `01_download.ipynb` 获取原始数据，再依次运行后续 Notebook。
+
+---
+
 ## GitHub 仓库
 
 [https://github.com/eleanorw001/dshw-p01](https://github.com/eleanorw001/dshw-p01)

@@ -12,7 +12,6 @@ build/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb_checkpoints
 
 # Virtual environments
 .env
@@ -31,9 +30,14 @@ desktop.ini
 *.swp
 *.swo
 
-# Large data files (keep CSVs, ignore large binaries)
-*.h5
-*.hdf5
+# Database
+*.db
 
-# Logs (keep download_log.txt intentionally)
-# *.log
+# Logs
+# Keep download_log.txt intentionally
+
+# Large data files (can be re-downloaded by running 01_download.ipynb)
+data/stock/
+data/index/
+data/macro/
+data/finance/
