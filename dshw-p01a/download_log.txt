@@ -1,0 +1,82 @@
+2026-05-24T02:57:18.679622Z	stock_000568.csv	rows=1545	cols=8	src=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_000568.csv	dst=D:\wj\study\dshw-p01\dshw-p01a\data\clean\stock_000568.csv
+2026-05-24T02:57:18.736509Z	stock_000988.csv	rows=1545	cols=8	src=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_000988.csv	dst=D:\wj\study\dshw-p01\dshw-p01a\data\clean\stock_000988.csv
+2026-05-24T02:57:18.795915Z	stock_002179.csv	rows=1545	cols=8	src=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_002179.csv	dst=D:\wj\study\dshw-p01\dshw-p01a\data\clean\stock_002179.csv
+2026-05-24T02:57:18.844632Z	stock_300510.csv	rows=1545	cols=8	src=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_300510.csv	dst=D:\wj\study\dshw-p01\dshw-p01a\data\clean\stock_300510.csv
+2026-05-24T02:57:18.893403Z	stock_600048.csv	rows=1545	cols=8	src=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_600048.csv	dst=D:\wj\study\dshw-p01\dshw-p01a\data\clean\stock_600048.csv
+2026-05-24T02:57:18.950061Z	stock_600519.csv	rows=1545	cols=8	src=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_600519.csv	dst=D:\wj\study\dshw-p01\dshw-p01a\data\clean\stock_600519.csv
+2026-05-24T02:57:18.997515Z	stock_601166.csv	rows=1545	cols=8	src=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_601166.csv	dst=D:\wj\study\dshw-p01\dshw-p01a\data\clean\stock_601166.csv
+2026-05-24T02:57:19.050335Z	stock_601288.csv	rows=1545	cols=8	src=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_601288.csv	dst=D:\wj\study\dshw-p01\dshw-p01a\data\clean\stock_601288.csv
+2026-05-24T02:57:19.103865Z	stock_603319.csv	rows=1545	cols=8	src=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_603319.csv	dst=D:\wj\study\dshw-p01\dshw-p01a\data\clean\stock_603319.csv
+2026-05-24T02:57:19.158748Z	stock_603685.csv	rows=1543	cols=8	src=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_603685.csv	dst=D:\wj\study\dshw-p01\dshw-p01a\data\clean\stock_603685.csv
+2026-05-24T03:12:08.865073+00:00	stock_000568.csv	rows=7656	cols=9	src=akshare.stock_zh_a_daily(sz000568)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_000568.csv
+2026-05-24T03:12:09.429795+00:00	stock_000988.csv	rows=6215	cols=9	src=akshare.stock_zh_a_daily(sz000988)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_000988.csv
+2026-05-24T03:12:09.826884+00:00	stock_002179.csv	rows=4489	cols=9	src=akshare.stock_zh_a_daily(sz002179)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_002179.csv
+2026-05-24T03:12:10.255901+00:00	stock_300510.csv	rows=2168	cols=9	src=akshare.stock_zh_a_daily(sz300510)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_300510.csv
+2026-05-24T03:12:10.683462+00:00	stock_600048.csv	rows=4787	cols=9	src=akshare.stock_zh_a_daily(sh600048)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_600048.csv
+2026-05-24T03:12:11.129286+00:00	stock_600519.csv	rows=5924	cols=9	src=akshare.stock_zh_a_daily(sh600519)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_600519.csv
+2026-05-24T03:12:11.521645+00:00	stock_601166.csv	rows=4661	cols=9	src=akshare.stock_zh_a_daily(sh601166)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_601166.csv
+2026-05-24T03:12:11.902472+00:00	stock_601288.csv	rows=3844	cols=9	src=akshare.stock_zh_a_daily(sh601288)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_601288.csv
+2026-05-24T03:12:12.363728+00:00	stock_603319.csv	rows=2299	cols=9	src=akshare.stock_zh_a_daily(sh603319)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_603319.csv
+2026-05-24T03:12:12.904911+00:00	stock_603685.csv	rows=2055	cols=9	src=akshare.stock_zh_a_daily(sh603685)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_603685.csv
+2026-05-24T03:12:13.063274+00:00	index_hs300.csv	ERROR	HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?secid=1.000300&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58&klt=101&fqt=0&beg=19900101&end=20500101 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2026-05-24T03:12:26.685643+00:00	index_zz500.csv	rows=6272	cols=6	src=akshare.tx index sz000905	dst=D:\wj\study\dshw-p01\dshw-p01a\data\index\index_zz500.csv
+2026-05-24T03:12:27.057582+00:00	macro_cpi.csv	rows=220	cols=13	src=akshare.macro_china_cpi()	dst=D:\wj\study\dshw-p01\dshw-p01a\data\macro\macro_cpi.csv
+2026-05-24T03:12:27.244444+00:00	macro_money_supply.csv	rows=220	cols=10	src=akshare.macro_china_money_supply()	dst=D:\wj\study\dshw-p01\dshw-p01a\data\macro\macro_money_supply.csv
+2026-05-24T03:12:30.889145+00:00	finance_000568.csv	rows=45	cols=86	src=akshare.stock_financial_analysis_indicator(000568)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_000568.csv
+2026-05-24T03:12:34.514114+00:00	finance_000988.csv	rows=45	cols=86	src=akshare.stock_financial_analysis_indicator(000988)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_000988.csv
+2026-05-24T03:12:38.599852+00:00	finance_002179.csv	rows=45	cols=86	src=akshare.stock_financial_analysis_indicator(002179)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_002179.csv
+2026-05-24T03:12:42.068102+00:00	finance_300510.csv	rows=45	cols=86	src=akshare.stock_financial_analysis_indicator(300510)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_300510.csv
+2026-05-24T03:12:46.189359+00:00	finance_600048.csv	rows=45	cols=86	src=akshare.stock_financial_analysis_indicator(600048)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_600048.csv
+2026-05-24T03:12:49.863305+00:00	finance_600519.csv	rows=45	cols=86	src=akshare.stock_financial_analysis_indicator(600519)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_600519.csv
+2026-05-24T03:12:53.348868+00:00	finance_601166.csv	rows=45	cols=86	src=akshare.stock_financial_analysis_indicator(601166)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_601166.csv
+2026-05-24T03:12:56.926279+00:00	finance_601288.csv	rows=45	cols=86	src=akshare.stock_financial_analysis_indicator(601288)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_601288.csv
+2026-05-24T03:13:00.467952+00:00	finance_603319.csv	rows=43	cols=86	src=akshare.stock_financial_analysis_indicator(603319)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_603319.csv
+2026-05-24T03:13:04.614468+00:00	finance_603685.csv	rows=41	cols=86	src=akshare.stock_financial_analysis_indicator(603685)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_603685.csv
+2026-05-24T03:13:25.284190+00:00	stock_000568.csv	rows=7656	cols=9	src=akshare.stock_zh_a_daily(sz000568)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_000568.csv
+2026-05-24T03:13:25.837631+00:00	stock_000988.csv	rows=6215	cols=9	src=akshare.stock_zh_a_daily(sz000988)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_000988.csv
+2026-05-24T03:13:26.329895+00:00	stock_002179.csv	rows=4489	cols=9	src=akshare.stock_zh_a_daily(sz002179)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_002179.csv
+2026-05-24T03:13:26.717106+00:00	stock_300510.csv	rows=2168	cols=9	src=akshare.stock_zh_a_daily(sz300510)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_300510.csv
+2026-05-24T03:13:27.245058+00:00	stock_600048.csv	rows=4787	cols=9	src=akshare.stock_zh_a_daily(sh600048)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_600048.csv
+2026-05-24T03:13:27.833937+00:00	stock_600519.csv	rows=5924	cols=9	src=akshare.stock_zh_a_daily(sh600519)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_600519.csv
+2026-05-24T03:13:28.349478+00:00	stock_601166.csv	rows=4661	cols=9	src=akshare.stock_zh_a_daily(sh601166)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_601166.csv
+2026-05-24T03:13:28.800027+00:00	stock_601288.csv	rows=3844	cols=9	src=akshare.stock_zh_a_daily(sh601288)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_601288.csv
+2026-05-24T03:13:29.597906+00:00	stock_603319.csv	rows=2299	cols=9	src=akshare.stock_zh_a_daily(sh603319)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_603319.csv
+2026-05-24T03:13:29.979595+00:00	stock_603685.csv	rows=2055	cols=9	src=akshare.stock_zh_a_daily(sh603685)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_603685.csv
+2026-05-24T03:13:41.642123+00:00	index_hs300.csv	rows=5130	cols=6	src=akshare.tx index sh000300	dst=D:\wj\study\dshw-p01\dshw-p01a\data\index\index_hs300.csv
+2026-05-24T03:14:02.473381+00:00	index_zz500.csv	rows=6272	cols=6	src=akshare.tx index sz000905	dst=D:\wj\study\dshw-p01\dshw-p01a\data\index\index_zz500.csv
+2026-05-24T03:14:02.635285+00:00	macro_cpi.csv	rows=220	cols=13	src=akshare.macro_china_cpi()	dst=D:\wj\study\dshw-p01\dshw-p01a\data\macro\macro_cpi.csv
+2026-05-24T03:14:03.002718+00:00	macro_money_supply.csv	rows=220	cols=10	src=akshare.macro_china_money_supply()	dst=D:\wj\study\dshw-p01\dshw-p01a\data\macro\macro_money_supply.csv
+2026-05-24T03:14:03.182454+00:00	finance_000568.csv	ERROR	'NoneType' object has no attribute 'find'
+2026-05-24T03:14:03.372760+00:00	finance_000988.csv	ERROR	'NoneType' object has no attribute 'find'
+2026-05-24T03:14:03.968506+00:00	finance_002179.csv	ERROR	'NoneType' object has no attribute 'find'
+2026-05-24T03:14:04.132423+00:00	finance_300510.csv	ERROR	'NoneType' object has no attribute 'find'
+2026-05-24T03:14:04.319279+00:00	finance_600048.csv	ERROR	'NoneType' object has no attribute 'find'
+2026-05-24T03:14:04.532818+00:00	finance_600519.csv	ERROR	'NoneType' object has no attribute 'find'
+2026-05-24T03:14:04.716620+00:00	finance_601166.csv	ERROR	'NoneType' object has no attribute 'find'
+2026-05-24T03:14:04.943806+00:00	finance_601288.csv	ERROR	'NoneType' object has no attribute 'find'
+2026-05-24T03:14:05.121364+00:00	finance_603319.csv	ERROR	'NoneType' object has no attribute 'find'
+2026-05-24T03:14:05.331929+00:00	finance_603685.csv	ERROR	'NoneType' object has no attribute 'find'
+2026-05-24T03:14:37.689146+00:00	stock_000568.csv	rows=7656	cols=9	src=akshare.stock_zh_a_daily(sz000568)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_000568.csv
+2026-05-24T03:14:38.132569+00:00	stock_000988.csv	rows=6215	cols=9	src=akshare.stock_zh_a_daily(sz000988)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_000988.csv
+2026-05-24T03:14:38.669686+00:00	stock_002179.csv	rows=4489	cols=9	src=akshare.stock_zh_a_daily(sz002179)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_002179.csv
+2026-05-24T03:14:39.095929+00:00	stock_300510.csv	rows=2168	cols=9	src=akshare.stock_zh_a_daily(sz300510)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_300510.csv
+2026-05-24T03:14:39.570416+00:00	stock_600048.csv	rows=4787	cols=9	src=akshare.stock_zh_a_daily(sh600048)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_600048.csv
+2026-05-24T03:14:40.479424+00:00	stock_600519.csv	rows=5924	cols=9	src=akshare.stock_zh_a_daily(sh600519)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_600519.csv
+2026-05-24T03:14:40.864412+00:00	stock_601166.csv	rows=4661	cols=9	src=akshare.stock_zh_a_daily(sh601166)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_601166.csv
+2026-05-24T03:14:41.662203+00:00	stock_601288.csv	rows=3844	cols=9	src=akshare.stock_zh_a_daily(sh601288)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_601288.csv
+2026-05-24T03:14:42.098255+00:00	stock_603319.csv	rows=2299	cols=9	src=akshare.stock_zh_a_daily(sh603319)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_603319.csv
+2026-05-24T03:14:42.489724+00:00	stock_603685.csv	rows=2055	cols=9	src=akshare.stock_zh_a_daily(sh603685)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\stock\stock_603685.csv
+2026-05-24T03:14:50.214650+00:00	index_hs300.csv	rows=5130	cols=6	src=akshare.tx index sh000300	dst=D:\wj\study\dshw-p01\dshw-p01a\data\index\index_hs300.csv
+2026-05-24T03:15:03.547514+00:00	index_zz500.csv	rows=6272	cols=6	src=akshare.tx index sz000905	dst=D:\wj\study\dshw-p01\dshw-p01a\data\index\index_zz500.csv
+2026-05-24T03:15:03.720665+00:00	macro_cpi.csv	rows=220	cols=13	src=akshare.macro_china_cpi()	dst=D:\wj\study\dshw-p01\dshw-p01a\data\macro\macro_cpi.csv
+2026-05-24T03:15:03.954208+00:00	macro_money_supply.csv	rows=220	cols=10	src=akshare.macro_china_money_supply()	dst=D:\wj\study\dshw-p01\dshw-p01a\data\macro\macro_money_supply.csv
+2026-05-24T03:15:04.816502+00:00	finance_000568.csv	rows=80	cols=118	src=akshare.stock_financial_abstract(000568)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_000568.csv
+2026-05-24T03:15:05.632394+00:00	finance_000988.csv	rows=80	cols=106	src=akshare.stock_financial_abstract(000988)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_000988.csv
+2026-05-24T03:15:06.328243+00:00	finance_002179.csv	rows=80	cols=83	src=akshare.stock_financial_abstract(002179)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_002179.csv
+2026-05-24T03:15:07.146017+00:00	finance_300510.csv	rows=80	cols=51	src=akshare.stock_financial_abstract(300510)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_300510.csv
+2026-05-24T03:15:07.805844+00:00	finance_600048.csv	rows=80	cols=87	src=akshare.stock_financial_abstract(600048)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_600048.csv
+2026-05-24T03:15:08.647537+00:00	finance_600519.csv	rows=80	cols=104	src=akshare.stock_financial_abstract(600519)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_600519.csv
+2026-05-24T03:15:09.254534+00:00	finance_601166.csv	rows=80	cols=90	src=akshare.stock_financial_abstract(601166)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_601166.csv
+2026-05-24T03:15:10.218509+00:00	finance_601288.csv	rows=80	cols=78	src=akshare.stock_financial_abstract(601288)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_601288.csv
+2026-05-24T03:15:10.746732+00:00	finance_603319.csv	rows=80	cols=49	src=akshare.stock_financial_abstract(603319)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_603319.csv
+2026-05-24T03:15:11.332839+00:00	finance_603685.csv	rows=80	cols=45	src=akshare.stock_financial_abstract(603685)	dst=D:\wj\study\dshw-p01\dshw-p01a\data\finance\finance_603685.csv
