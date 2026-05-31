@@ -1,0 +1,13 @@
+﻿python : Traceback (most recent call last):
+所在位置 行:1 字符: 11
++ $output = python -c "import pdfplumber; pdf = pdfplumber.open(r'D:\wj ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 1, in <module>
+    import pdfplumber; pdf = pdfplumber.open(r'D:\wj\study\2025下学期各学科作业\平台经济论文\平台经济领域反垄断与企业协同创新_张多蕾.pdf'); text = ''.jo
+in([page.extract_text() or '' for page in pdf.pages]); print(text)
+                                                                                                                       
+                                                                                        ~~~~~^^^^^^
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2043' in position 1829: illegal multibyte sequence
